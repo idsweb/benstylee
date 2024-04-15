@@ -19,3 +19,32 @@ To change the title of the site change the title property. This will update the 
 # Changing the H1
 You can change the H1 of the page from Welcome to the message of your choice by editing the markup above.
 
+# Changing the colors
+The styles are in wwwroot/css/site.css
+```css
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+```
+The stlying uses bootstrap (wwwroot/lib/bootstrap/dist/css)
+
+Scott has a great video here: https://www.youtube.com/watch?v=9lJF47kFRcU
