@@ -48,3 +48,12 @@ body {
 The stlying uses bootstrap (wwwroot/lib/bootstrap/dist/css)
 
 Scott has a great video here: https://www.youtube.com/watch?v=9lJF47kFRcU
+
+For a crude hack you could edit these styles directly
+```csss
+body {
+  margin-bottom: 60px;
+  background-color: black;
+  color:#FFF;
+}
+```
