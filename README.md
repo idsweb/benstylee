@@ -57,3 +57,5 @@ body {
   color:#FFF;
 }
 ```
+# Styling with bootstrap themes
+Check out this video on using a theme https://www.youtube.com/watch?v=bUgFQeUaze0&t=143s
